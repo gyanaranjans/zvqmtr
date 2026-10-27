@@ -9,7 +9,7 @@ Data: national wind generation from **Elexon BMRS** only:
 - Actuals: [`FUELHH`](https://bmrs.elexon.co.uk/api-documentation/endpoint/datasets/FUELHH/stream), `fuelType = WIND`, half-hourly.
 - Forecasts: [`WINDFOR`](https://bmrs.elexon.co.uk/api-documentation/endpoint/datasets/WINDFOR/stream), hourly, multiple vintages (`publishTime`) per target `startTime`.
 
-**Live app:** _added after deploy_
+**Live app:** https://zvqmtr.vercel.app
 
 ## Key findings (January 2026, 10:00 D-1 decision)
 
