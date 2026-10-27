@@ -46,8 +46,7 @@ backend/
   requirements.txt
 frontend/            # React + TypeScript + Vite + Recharts
   src/App.tsx, src/api.ts, src/components/{DayAhead,Accuracy,ui}.tsx, src/styles.css
-api/index.py         # Vercel serverless entry (re-exports the FastAPI app)
-vercel.json          # Vercel build + routing (static UI + Python API)
+vercel.json          # Vercel services: backend (FastAPI, served on /api) + frontend (Vite)
 Dockerfile, docker-compose.yml  # single container: builds UI, serves UI + API on :8000
 ```
 
